@@ -11,7 +11,7 @@ dry = 'fart-83471.mp3'
 wet = 'fart-9-228245.mp3'
 spicy = 'fart-8-228244.mp3'
 
-fart = st.selectbox("What kind of fart do you want?",('Dry', "Wet", "Spicy"))
+fart = st.selectbox("What kind of fart do you want?",('No Fart :/ I am lame','Dry', "Wet", "Spicy"))
 if fart == "Wet":
     st.audio(wet,loop=True,autoplay=True)
 if fart == "Dry":
