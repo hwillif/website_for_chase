@@ -18,6 +18,7 @@ dry = 'fart-83471.mp3'
 wet = 'fart-9-228245.mp3'
 spicy = 'fart-8-228244.mp3'
 shart = 'unusual-sounding-fart-249278.mp3'
+surprise = 'fartbumtrumpetpoop-99028.mp3'
 
 fart = st.selectbox("What kind of fart do you want?",('None :/ I hate Winston','Dry', 'Wet', 'Spicy','Shart','Surprise'))
 if fart == "Wet":
