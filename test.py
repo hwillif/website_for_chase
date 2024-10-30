@@ -13,11 +13,11 @@ spicy = 'fart-8-228244.mp3'
 
 fart = st.selectbox("What kind of fart do you want?",('Dry', "Wet", "Spicy"))
 if fart == "Wet":
-    st.audio(wet)
+    st.audio(wet,loop=True,autoplay=True)
 if fart == "Dry":
-    st.audio(dry)
+    st.audio(dry,loop=True,autoplay=True)
 if fart == "Spicy":
-    st.audio(spicy)
+    st.audio(spicy,loop=True,autoplay=True)
 
 st.write("This is Winston")
 st.image(Rotated_image)
