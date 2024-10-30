@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
+img = 'IMG_8252.jpg'
 img = Image.open(img)
 Rotated_image = img.rotate(270)
 
